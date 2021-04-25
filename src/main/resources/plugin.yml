@@ -1,0 +1,7 @@
+name: GodsEyeVR
+version: ${project.version}
+main: me.dejavu.godseyevr.GodsEyeVR
+api-version: 1.16
+authors: [ Dejavu ]
+depend:
+  - Vivecraft-Spigot-Extensions
