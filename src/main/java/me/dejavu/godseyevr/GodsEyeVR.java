@@ -18,6 +18,7 @@ public final class GodsEyeVR extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        instance = this;
         Bukkit.getPluginManager().registerEvents(new VRPlayerJoinListener(), this);
         GodsEyeVRAPI.setDelay(conf.getInt("Login checks activation delay"));
         getLogger().info(getDescription().getName() + " GodsEyeVR Fix has been enabled");
